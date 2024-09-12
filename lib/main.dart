@@ -123,6 +123,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
               ),
               Row(
                 children: <Widget>[
+                  _buildButton('%'),
                   _buildButton('C'),
                   _buildButton('='),
                 ],
